@@ -1,0 +1,68 @@
+{
+  "sellerposts": [
+    {
+      "id": null,
+      "userId": null,
+      "title": "",
+      "category": "",
+      "type": "",
+      "price": "",
+      "content": "",
+      "datePosted": "",
+      "likes": 0,
+      "comments": [
+        {
+          "name": "",
+          "phone": "",
+          "comment": ""
+        }
+      ],
+      "interestsShown": [
+        {
+          "name": "",
+          "phone": "",
+          "comments": ""
+        }
+      ],
+      "soldData": {
+        "isSold": false,
+        "soldDate": "",
+        "soldPrice": "",
+        "soldToName": "",
+        "soldToPhone": ""
+      }
+    }
+  ],
+  "user": {
+    "id": null,
+    "name": "",
+    "phone": "",
+    "enabledHabits": false,
+    "totalPosts": 0,
+    "connectedHabits": [],
+    "mileStones": [
+      { "id": null, "name": "", "achievedDate": "", "connectedReward": "" }
+    ],
+    "rewards": [
+      {
+        "id": null,
+        "name": "",
+        "isRealized": false,
+        "realizedDate": ""
+      }
+    ]
+  },
+  "habit": {
+    "id": null,
+    "userId": null,
+    "title": "",
+    "timeSlot": "",
+    "frequency": null,
+    "used": 0
+  },
+  "comment": {
+    "name": "",
+    "phone": "",
+    "comment": ""
+  }
+}

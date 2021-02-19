@@ -1,0 +1,114 @@
+.Header {
+  background: #fff;
+  padding: 0;
+  box-shadow: none;
+  position: fixed;
+  width: 100%;
+  overflow: scroll;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  text-align: center;
+}
+
+.Header .container {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.Header .container .main-header {
+  padding: 5px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Header .container .logo {
+  width: 135px;
+  margin: 0;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+}
+
+.Header .container .logo a {
+  cursor: pointer;
+}
+
+.Header .container .logo a img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.Header .container .logo .tagline {
+  display: none;
+}
+
+.Header .container .header1 {
+  margin: 0;
+  text-align: center;
+}
+
+.Header .container .header1 .btn-sell {
+  border-radius: 21px;
+  border: solid 1px #eda600;
+  background-image: linear-gradient(115deg, #ffb300 7%, #e38b24 89%);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 900;
+  padding: 10px 20px;
+  margin: 0 5px 0 30px;
+  display: inline-block;
+}
+
+.Header .container .sticky-header {
+  border-top: 1px solid #ebebeb;
+  border-bottom: 1px solid #ebebeb;
+  background: #fff;
+  text-align: center;
+}
+
+.Header .container .sticky-header .location {
+  width: 49%;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 14px 0;
+  font-size: 14px;
+  color: #666666;
+  cursor: pointer;
+  position: relative;
+  border-right: 1px solid #ebebeb;
+}
+
+.Header .container .sticky-header .location img,
+.Header .container .sticky-header .selector img {
+  height: 12px;
+  margin-right: 6px;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.Header .container .sticky-header .location span,
+.Header .container .sticky-header .selector span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.Header .container .sticky-header .selector {
+  width: 49%;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 14px 0;
+  font-size: 14px;
+  color: #666666;
+  cursor: pointer;
+  position: relative;
+}
+
+@media screen and (max-width: 350px) {
+  .Header .container .header1 .btn-sell {
+    margin: 0 5px;
+    padding: 10px 15px;
+  }
+}

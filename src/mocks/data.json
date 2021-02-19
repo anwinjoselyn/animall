@@ -1,0 +1,86 @@
+{
+  "sellerposts": [
+    {
+      "id": 1,
+      "userId": 1,
+      "title": "Haryanvi Cow",
+      "category": "Cows",
+      "type": "",
+      "price": "40000",
+      "content": "2 Years old healthy",
+      "datePosted": "",
+      "likes": 0,
+      "comments": [
+        {
+          "name": "",
+          "phone": "",
+          "comment": ""
+        }
+      ],
+      "interestsShown": [
+        {
+          "name": "",
+          "phone": "",
+          "comments": ""
+        }
+      ],
+      "soldData": {
+        "isSold": false,
+        "soldDate": "",
+        "soldPrice": "",
+        "soldToName": "",
+        "soldToPhone": ""
+      }
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Ramesh",
+      "phone": "+919234512345",
+      "enabledHabits": false,
+      "totalPosts": 0,
+      "connectedHabits": [],
+      "mileStones": [
+        { "id": 1, "name": "", "achievedDate": "", "connectedReward": "" }
+      ],
+      "rewards": [
+        {
+          "id": 1,
+          "name": "Achieved Habit 1",
+          "isRealized": false,
+          "realizedDate": ""
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Mahesh",
+      "phone": "+919234512545",
+      "enabledHabits": false,
+      "totalPosts": 0,
+      "connectedHabits": [],
+      "mileStones": [
+        { "id": 1, "name": "", "achievedDate": "", "connectedReward": "" }
+      ],
+      "rewards": [
+        {
+          "id": null,
+          "name": "",
+          "isRealized": false,
+          "realizedDate": ""
+        }
+      ]
+    }
+  ],
+  "habits": [
+    {
+      "id": 1,
+      "userId": 1,
+      "title": "Chickens",
+      "timeSlot": "",
+      "frequency": 2,
+      "used": 1
+    }
+  ]
+}

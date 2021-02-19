@@ -1,0 +1,261 @@
+.Habits {
+  padding: 10px;
+  text-align: center;
+  background: #fff;
+  top: 10px;
+  position: relative;
+  overflow: scroll;
+}
+
+.Habits .container {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.Habits .container .top-div {
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Habits h3 {
+  padding-top: 70px;
+  font-weight: 600;
+  opacity: 0.6;
+}
+
+.Habits .total-habits {
+  width: 64%;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 14px 0;
+  font-size: 14px;
+  color: #666666;
+  cursor: pointer;
+  position: relative;
+}
+
+.Habits .add-habits {
+  width: 34%;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 14px;
+  position: relative;
+
+  border-radius: 21px;
+  border: solid 1px #eda600;
+  background-image: linear-gradient(115deg, #ffb300 7%, #e38b24 89%);
+  color: #fff;
+  padding: 5px 10px;
+}
+
+.Habits .add-habits .add-button {
+  cursor: pointer;
+  color: #fff;
+  font-size: 14px;
+}
+
+.Habits .rewards {
+  width: 34%;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 14px;
+  position: relative;
+
+  color: #666666;
+  padding: 0;
+}
+
+.Habits .rewards i {
+  color: #008479;
+  font-size: 14px;
+}
+
+.Habits .rewards p div {
+  margin-top: 10px;
+}
+
+.Habits .rewards .reward-btn {
+  font-size: 12px;
+  border: solid 1px #eda600;
+  background-image: linear-gradient(115deg, #ffb300 7%, #e38b24 89%);
+  color: #fff;
+  padding: 5px;
+  border-radius: 12px;
+}
+
+.Habits .milestones {
+  width: 64%;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 14px;
+  position: relative;
+
+  color: #666666;
+  padding: 0;
+}
+
+.Habits .container2 {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.Habits .container2 .top-div {
+  border: 1px solid #ebebeb;
+  border-radius: 5px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* AddHabit component */
+.AddHabit {
+  padding: 10px;
+  text-align: center;
+  background: #fcfcfc;
+  font-size: 14px;
+  color: #666666;
+}
+
+.AddHabit .container h4 {
+  padding: 0;
+  margin: 5px;
+}
+
+.AddHabit .container .form-wrap {
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+.AddHabit .container .form-wrap .form-item {
+  padding-bottom: 5px;
+  font-size: 12px;
+}
+
+.AddHabit .container .form-wrap .form-item input {
+  margin: 10px 5px;
+  width: 77%;
+  border: 1px solid #ebebeb;
+  background: #fff;
+  padding: 5px;
+  color: #666666;
+}
+
+.AddHabit .container .form-wrap .form-item textarea {
+  margin: 10px 5px;
+  width: 85%;
+  border: 1px solid #ebebeb;
+  background: #fff;
+  padding: 5px;
+  color: #666666;
+}
+
+.AddHabit .container .form-wrap .form-item select {
+  margin: 10px 5px;
+  width: 50%;
+  border: 1px solid #ebebeb;
+  background: #fff;
+  padding: 5px;
+  color: #666666;
+}
+
+.AddHabit .container .form-wrap .form-item select option {
+  font-size: 12px;
+  text-align: center;
+}
+
+.AddHabit .container .form-wrap .form-item input.submit-button {
+  margin-bottom: 50px;
+  font-size: 14px;
+  width: 90%;
+  background: #008479;
+  color: #fff;
+  padding: 5px;
+  border-radius: 12px;
+}
+
+/* ShowHabits component */
+
+.ShowHabits {
+  margin-top: 10px;
+  padding: 10px;
+  text-align: center;
+  background: #fff;
+  font-size: 14px;
+  color: #666666;
+}
+
+.ShowHabits h4 {
+  padding: 0;
+  margin: 5px;
+}
+
+.ShowHabits small {
+  color: #008479;
+}
+
+.ShowHabits .container .habits-list-wrapper {
+  padding: 2px;
+}
+
+.ShowHabits .container .habits-list-wrapper .habits-list {
+  padding: 5px;
+}
+
+.ShowHabits .container .habits-list-wrapper .habits-list .habits-list-item {
+  display: inline-block;
+  width: 90%;
+  text-align: left;
+  border: 1px solid #ebebeb;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+}
+
+.ShowHabits
+  .container
+  .habits-list-wrapper
+  .habits-list
+  .habits-list-item
+  .title-span {
+  font-size: 14px;
+  text-align: center;
+  margin-right: 10px;
+  width: 100%;
+  display: block;
+  padding-bottom: 5px;
+}
+
+.ShowHabits
+  .container
+  .habits-list-wrapper
+  .habits-list
+  .habits-list-item
+  .title-span
+  .data-span
+  small {
+  text-decoration: none;
+}
+
+.ShowHabits
+  .container
+  .habits-list-wrapper
+  .habits-list
+  .habits-list-item
+  .frequency-span {
+  font-size: 14px;
+}
+
+.ShowHabits .sell-btn {
+  font-size: 12px;
+  background: #008479;
+  color: #fff;
+  padding: 5px;
+  border-radius: 12px;
+  float: right;
+}
